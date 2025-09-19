@@ -35,7 +35,7 @@
 
   header,
   footer {
-      background-color: navy;
+      background-color: #013146;
       color: white;
       padding: 70px;
       text-align: center;
@@ -51,7 +51,7 @@
   }
 
   a {
-      color: rgb(255, 208, 0);
+      color: #FCB11D;
       text-decoration: none;
   }
 
@@ -62,7 +62,7 @@
   h1,
   h2 {
       font-family: "Signika", sans-serif;
-      size:large;
+      size: large;
   }
 
   h2 {
@@ -72,25 +72,24 @@
   .lead {
       font-size: large;
       font-weight: 600px;
-      /*TO DO: font size (em), font style and/or weight */
   }
 
   .register a {
-      background-color: red;
+      background-color: #C52804;
       color: white;
       padding: 10px;
   }
 
   .schedule p {
-      /*TO DO: padding, reset margin to 0 */
+      margin: 0;
+      padding: 20px;
   }
 
   .odd {
-      background-color:rgb(0, 255, 234);
-      margin:0;
+      background-color: #BCF7FF;
+      margin: 0;
   }
 
   .even {
-    background-color:rgb(0, 191, 255);
-    margin:0;
+      background-color: #7DE7F7;
   }
