@@ -1,0 +1,96 @@
+  /* 
+  font-family: "Signika", sans-serif;
+  font-family: "Epunda Sans", sans-serif; 
+
+  blue: 013146
+  lt blue: BCF7FF
+  dk blue: 7DE7F7
+  red: C52804
+  yellow: FCB11D
+  
+  */
+  .epunda-sans {
+      font-family: "Epunda Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  }
+
+  .signika {
+      font-family: "Signika", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+          "GRAD" 0;
+  }
+
+
+  body {
+      font-family: "Epunda Sans", sans-serif;
+      margin: 0;
+      fallback: "Georgia", serif;
+
+  }
+
+  header,
+  footer {
+      background-color: navy;
+      color: white;
+      padding: 70px;
+      text-align: center;
+  }
+
+  main {
+      margin: 20px;
+  }
+
+  section {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+
+  a {
+      color: rgb(255, 208, 0);
+      text-decoration: none;
+  }
+
+  a:hover {
+      font-weight: 600;
+  }
+
+  h1,
+  h2 {
+      font-family: "Signika", sans-serif;
+      size:large;
+  }
+
+  h2 {
+      text-transform: uppercase;
+  }
+
+  .lead {
+      font-size: large;
+      font-weight: 600px;
+      /*TO DO: font size (em), font style and/or weight */
+  }
+
+  .register a {
+      background-color: red;
+      color: white;
+      padding: 10px;
+  }
+
+  .schedule p {
+      /*TO DO: padding, reset margin to 0 */
+  }
+
+  .odd {
+      background-color:rgb(0, 255, 234);
+      margin:0;
+  }
+
+  .even {
+    background-color:rgb(0, 191, 255);
+    margin:0;
+  }
