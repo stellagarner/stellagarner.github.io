@@ -123,9 +123,33 @@
     font-weight: 400;
     font-style: italic;
 }
-  header {
-      background-color: #013146;
-      color: white;
-      padding: 70px;
-      text-align: center;
-  }
+
+header{
+    font-family: "Barrio", sans-serif;
+    background-color: black;
+    color: white;
+    padding: 70px;
+    text-align: center;
+}
+a{
+    font-family:"DM Serif Text", serif;
+    font-weight:300;
+    text-decoration:none;
+    color:rgb(181, 27, 52);
+}
+
+main h2{
+font-family:"DM Serif Text", serif;
+}
+.delivery{
+    background-color:white;
+    padding:50px;
+    margin:50px;
+    box-align:center;
+}
+body{ 
+    background-color:#F5EFED;
+}
+.row {
+    align-items:center;
+}
