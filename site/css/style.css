@@ -1,3 +1,93 @@
 h1 {
-    color:red;
+    text-align: center;
+    margin: 300px;
+    font-size: 75px;
+    color: #e2d1b6;
+    font-family: "Fanwood Text", serif;
+}
+
+a {
+    color: #312811;
+    font-size: 25px;
+    justify-content: space-evenly;
+    font-family: "Inknut Antiqua", serif;
+    padding: 150px;
+}
+
+body {
+    background-color: #3E482A;
+    color: #e2d1b6;
+}
+
+h2 {
+    font-family: "Inknut Antiqua", serif;
+}
+
+img {
+    padding-bottom: 100px;
+}
+
+.fanwood-text-regular {
+    font-family: "Fanwood Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fanwood-text-regular-italic {
+    font-family: "Fanwood Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.inknut-antiqua-light {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inknut-antiqua-regular {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inknut-antiqua-medium {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inknut-antiqua-semibold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.inknut-antiqua-bold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inknut-antiqua-extrabold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.inknut-antiqua-black {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
