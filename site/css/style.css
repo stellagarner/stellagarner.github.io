@@ -22,6 +22,7 @@ body {
 h2 {
     font-family: "Inknut Antiqua", serif;
     color: #312811;
+    padding: 20px;
 }
 
 img {
@@ -92,11 +93,26 @@ p {
     font-weight: 400;
     font-style: normal;
 }
-h3{
-    padding-top:50px;
+
+h3 {
+    padding-top: 50px;
     font-family: "Fanwood Text", serif;
 }
-ul {
-        font-family: "Josefin Sans", sans-serif;
 
+ul {
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.name {
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 30px;
+
+}
+
+figcaption {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    padding: 35px;
 }
