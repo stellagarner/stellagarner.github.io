@@ -120,3 +120,8 @@ figcaption {
 .contact {
     padding:15px;
 }
+
+@media (max-width:568px){
+    h1{
+        font-size:2em;
+    }}
