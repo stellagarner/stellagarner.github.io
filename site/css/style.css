@@ -41,6 +41,7 @@ h2 {
 
 img {
     padding-bottom: 100px;
+    width:500px;
 }
 
 .fanwood-text-regular {
@@ -100,4 +101,7 @@ figcaption {
     h1 {
         font-size: 2em;
     }
+}
+.mcdonalds{
+    width:600px;
 }
