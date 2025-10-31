@@ -12,11 +12,10 @@ body {
 
 }
 
-nav a {
+nav a, a {
     color: #312811;
     font-size: 1.25em;
     font-family: "Inknut Antiqua", serif;
-    padding: 30px;
 }
 
 nav {
@@ -41,7 +40,6 @@ h2 {
 
 img {
     padding-bottom: 100px;
-    width:500px;
 }
 
 .fanwood-text-regular {
@@ -79,11 +77,12 @@ ul {
 figcaption {
     font-family: "Josefin Sans", sans-serif;
     font-size: 1.25em;
-    padding: 35px 0;
+    padding: 35px;
 }
-
-.contact {
-    padding: 15px;
+.contact a{
+    display:block;
+    line-height:2;
+    text-decoration:none;
 }
 
 @media (max-width:800px) {
@@ -95,6 +94,9 @@ figcaption {
         display: block;
         padding: 0 30px;
     }
+    a {
+        padding:0;
+    }
 }
 
 @media (max-width:568px) {
@@ -102,6 +104,7 @@ figcaption {
         font-size: 2em;
     }
 }
-.mcdonalds{
+.hyattsville{
     width:600px;
+    height:400px;
 }
