@@ -1,28 +1,42 @@
+body {
+    background-color: #3E482A;
+    color: #e2d1b6;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+}
+
+.name {
+    font-size: 1.5em;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 30px;
+
+}
+
+nav a {
+    color: #312811;
+    font-size: 1.25em;
+    font-family: "Inknut Antiqua", serif;
+    padding: 30px;
+}
+
+nav {
+    word-spacing: 20px;
+}
+
 h1 {
     text-align: center;
-    margin: 300px;
-    font-size: 75px;
+    margin: 300px 0;
+    font-size: 3.75em;
     color: #e2d1b6;
     font-family: "Fanwood Text", serif;
 }
 
-a {
-    color: #312811;
-    font-size: 25px;
-    justify-content: space-evenly;
-    font-family: "Inknut Antiqua", serif;
-    padding: 150px;
-}
-
-body {
-    background-color: #3E482A;
-    color: #e2d1b6;
-}
 
 h2 {
     font-family: "Inknut Antiqua", serif;
     color: #312811;
-    padding: 20px;
+    text-align: center;
+    padding: 20px 0;
 }
 
 img {
@@ -35,56 +49,10 @@ img {
     font-style: normal;
 }
 
-.fanwood-text-regular-italic {
-    font-family: "Fanwood Text", serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.inknut-antiqua-light {
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
 .inknut-antiqua-regular {
     font-family: "Inknut Antiqua", serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.inknut-antiqua-medium {
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.inknut-antiqua-semibold {
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.inknut-antiqua-bold {
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.inknut-antiqua-extrabold {
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 800;
-    font-style: normal;
-}
-
-.inknut-antiqua-black {
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-p {
-    font-family: "Josefin Sans", sans-serif;
 }
 
 .josefin-sans {
@@ -104,13 +72,6 @@ ul {
 
 }
 
-.name {
-    font-size: 30px;
-    font-family: "Josefin Sans", sans-serif;
-    padding: 30px;
-
-}
-
 figcaption {
     font-family: "Josefin Sans", sans-serif;
     font-size: 25px;
@@ -118,10 +79,22 @@ figcaption {
 }
 
 .contact {
-    padding:15px;
+    padding: 15px;
 }
 
-@media (max-width:568px){
-    h1{
-        font-size:2em;
-    }}
+@media (max-width:800px) {
+    nav {
+        word-spacing: 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width:568px) {
+    h1 {
+        font-size: 2em;
+    }
+}
