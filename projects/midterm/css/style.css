@@ -66,3 +66,27 @@ a {
 .chart-title {
   text-align:center;
 }
+@media (max-width:950px){
+  .container, .container-fluid{
+    width:75%;
+  }
+  .chart-title {
+    font-size:1.25em;
+    text-align:center;
+  }
+}
+@media (max-width:556px){
+  .container, .container-fluid{
+    width:95%;
+  }
+  h1 {
+    font-size:3.25em;
+  }
+  .chart-hed{
+    font-size:1.75em;
+    padding:1em 0 1em 0;
+  }
+  img {
+padding:2em;
+  }
+}
