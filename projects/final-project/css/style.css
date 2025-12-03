@@ -1,0 +1,66 @@
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.jura {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 200px;
+  color: #FFFF00;
+  text-align: center;
+  padding: 100px;
+}
+
+h2 {
+  font-size: 80px;
+  font-family: "Pixelify Sans", sans-serif;
+  color: #FFFF00;
+  text-align: center;
+  padding-top: 50px;
+}
+
+body {
+  background-color: #000000;
+  color: #2727FF;
+  font-size: 25px;
+  font-family: "Jura", sans-serif;
+}
+
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+figcaption {
+  font-family: "Jura", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 50px;
+}
+
+footer {
+  padding-top: 50px;
+  font-size: 20px;
+  text-align: center;
+font-style:italic;
+}
